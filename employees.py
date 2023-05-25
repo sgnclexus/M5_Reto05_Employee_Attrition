@@ -48,8 +48,10 @@ ax.set_title('Employees by Unit')
 plt.xticks(rotation=90)
 for label in ax.containers:
   ax.bar_label(label)
-
-st.pyplot(fig2)
+try:
+    st.pyplot(fig2)    
+except Exception as e:
+    st.exception(e)
 
 st.markdown("___")
 
