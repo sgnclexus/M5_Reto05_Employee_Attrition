@@ -1,1 +1,1 @@
-seaborn
+$ pipenv install seaborn
