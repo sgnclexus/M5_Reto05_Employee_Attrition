@@ -1,1 +1,1 @@
-seaborn-dev
+pip install seaborn
