@@ -1,1 +1,2 @@
-pip install "seaborn"
+$ pipenv install
+$ pipenv install "seaborn"
